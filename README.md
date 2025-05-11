@@ -1,8 +1,11 @@
 # DisBERT-BERT-for-media-based-disaster-prediction
 
 ## Dataset: Tweet Analysis - ANN/BERT/CNN/n-gram CNN
-The dataset can be found in https://www.kaggle.com/code/jagdmir/tweet-analysis-ann-bert-cnn-n-gram-cnn, which consists of 3271 real disaster tweets and 4342 fake disaster tweets, providing a
-relatively balanced distribution for model training. This balanced class distribution reduces the likelihood of the model being biased toward the majority class and ensures that both classes contribute meaningfully to the model's performance.
+The dataset can be found in https://www.kaggle.com/competitions/nlp-getting-started, providing a relatively balanced distribution for model training. This balanced class distribution reduces the likelihood of the model being biased toward the majority class and ensures that both classes contribute meaningfully to the model's performance.
+
+<div align=center>
+<img src="https://github.com/Seailvia/DisBERT-BERT-for-media-based-disaster-prediction/blob/main/twitter.png" width = 500>
+</div>
 
 A key feature in this dataset is the length of each tweet. We hypothesize that tweet length might influence classification, and therefore, it is important to explore the distribution of tweet lengths in both classes. The length of a tweet is calculated by the number of characters in it.
 
