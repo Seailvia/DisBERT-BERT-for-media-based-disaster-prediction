@@ -45,6 +45,7 @@ Epoch 12/15 - Loss: 0.18781285039104592, Accuracy: 0.9384
 Epoch 13/15 - Loss: 0.17120044254147396, Accuracy: 0.946
 Epoch 14/15 - Loss: 0.1663578376292992, Accuracy: 0.9488
 Epoch 15/15 - Loss: 0.15068446760312817, Accuracy: 0.9536
+```
 
 <div align=center>
 <img src="https://github.com/Seailvia/DisBERT-BERT-for-media-based-disaster-prediction/blob/main/training.png" width = 500>
@@ -58,3 +59,17 @@ The prediction part mainly includes model loading, data preparation, and predict
 </div>
 
 The proposed model achieved an accuracy of 90.16% on the test data, demonstrating a substantial improvement over traditional machine-learning methods. As presented above, the confusion matrix heatmap further provides a detailed visualization of the model's performance, enabling a more in-depth analysis of its classification capabilities. This high accuracy not only validates the effectiveness of the model architecture but also highlights its potential for practical applications in the relevant domain.
+
+## Usage
+The model has been saved in **model.py**, for data preprocessing, you can use data_processing.py, run:
+
+```
+python data_processing.py
+```
+
+To train the model with labeled data, run:
+```
+python train.py
+```
+
+The model will be saved to **trained_model.pth**, change the path in **run_test.py** and run the program, then the classification result will be provided.
