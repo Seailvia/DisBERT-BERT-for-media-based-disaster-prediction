@@ -29,7 +29,7 @@ After 15 epochs of training on the training dataset, the loss is observed to be 
 
 #### Training result of 15 epochs
 
-'''python
+```
 Epoch 1/15 - Loss: 0.5877525638848448, Accuracy: 0.7046
 Epoch 2/15 - Loss: 0.4346571335682092, Accuracy: 0.8188
 Epoch 3/15 - Loss: 0.38173276621598407, Accuracy: 0.8444
