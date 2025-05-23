@@ -27,6 +27,24 @@ The training process mainly consists of data loading, model definition, optimize
 
 After 15 epochs of training on the training dataset, the loss is observed to be decreased significantly, while the accuracy of the model increases from 70.46% to 95.36%.
 
+#### Training result of 15 epochs
+
+Epoch 1/15 - Loss: 0.5877525638848448, Accuracy: 0.7046
+Epoch 2/15 - Loss: 0.4346571335682092, Accuracy: 0.8188
+Epoch 3/15 - Loss: 0.38173276621598407, Accuracy: 0.8444
+Epoch 4/15 - Loss: 0.35530916753763586, Accuracy: 0.858
+Epoch 5/15 - Loss: 0.3277079643437657, Accuracy: 0.8724
+Epoch 6/15 - Loss: 0.30075490300933394, Accuracy: 0.8868
+Epoch 7/15 - Loss: 0.2826704418602081, Accuracy: 0.895
+Epoch 8/15 - Loss: 0.25989932877520405, Accuracy: 0.9068
+Epoch 9/15 - Loss: 0.2372729818042094, Accuracy: 0.9182
+Epoch 10/15 - Loss: 0.21591196547205838, Accuracy: 0.9274
+Epoch 11/15 - Loss: 0.20370061207598392, Accuracy: 0.9312
+Epoch 12/15 - Loss: 0.18781285039104592, Accuracy: 0.9384
+Epoch 13/15 - Loss: 0.17120044254147396, Accuracy: 0.946
+Epoch 14/15 - Loss: 0.1663578376292992, Accuracy: 0.9488
+Epoch 15/15 - Loss: 0.15068446760312817, Accuracy: 0.9536
+
 <div align=center>
 <img src="https://github.com/Seailvia/DisBERT-BERT-for-media-based-disaster-prediction/blob/main/training.png" width = 500>
 </div>
